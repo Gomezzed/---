@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Crouching Style symbol">
   <title>Crouching Style — Symbol</title>
   <defs>
-    <!-- Top row: magenta -> pink (45deg) -->
+    <!-- Top row: magenta -> pink (45deg, top-left to bottom-right) -->
     <linearGradient id="cs-top" gradientUnits="userSpaceOnUse"
-                    x1="148" y1="156" x2="412" y2="248">
+                    x1="178" y1="156" x2="386" y2="252">
       <stop offset="0" stop-color="#E6007E"/>
       <stop offset="1" stop-color="#FF3CAC"/>
     </linearGradient>
-    <!-- Bottom row: pink -> orange (45deg) -->
+    <!-- Bottom row: pink -> orange, continuous across both pieces -->
     <linearGradient id="cs-bot" gradientUnits="userSpaceOnUse"
-                    x1="137" y1="280" x2="419" y2="360">
+                    x1="82" y1="270" x2="368" y2="356">
       <stop offset="0" stop-color="#FF6A88"/>
       <stop offset="1" stop-color="#FF8A00"/>
     </linearGradient>
   </defs>
 
-  <!-- TOP: one wide, large slanted parallelogram (~22deg up-right) -->
-  <polygon fill="url(#cs-top)" points="112,248 412,248 448,156 148,156"/>
+  <!-- TOP: one wide, larger parallelogram, shifted right (rising right) -->
+  <polygon fill="url(#cs-top)" points="136,252 386,252 428,156 178,156"/>
 
-  <!-- BOTTOM: two smaller parallelograms with a thin central gap -->
-  <polygon fill="url(#cs-bot)" points="137,360 255,360 287,280 169,280"/>
-  <polygon fill="url(#cs-bot)" points="269,360 387,360 419,280 301,280"/>
+  <!-- BOTTOM: two smaller parallelograms; left juts out, thin slanted gap -->
+  <polygon fill="url(#cs-bot)" points="82,356 198,356 236,270 120,270"/>
+  <polygon fill="url(#cs-bot)" points="214,356 330,356 368,270 252,270"/>
 </svg>
