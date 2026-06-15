@@ -1,25 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Crouching Style symbol">
   <title>Crouching Style — Symbol</title>
   <defs>
-    <!-- Brand gradient: 45deg, top-left to bottom-right -->
-    <linearGradient id="cs-grad" gradientUnits="userSpaceOnUse"
-                    x1="116" y1="192" x2="418" y2="374">
-      <stop offset="0"    stop-color="#E6007E"/>
-      <stop offset="0.34" stop-color="#FF3CAC"/>
-      <stop offset="0.67" stop-color="#FF6A88"/>
-      <stop offset="1"    stop-color="#FF8A00"/>
+    <!-- Top row: magenta -> pink (45deg) -->
+    <linearGradient id="cs-top" gradientUnits="userSpaceOnUse"
+                    x1="148" y1="156" x2="412" y2="248">
+      <stop offset="0" stop-color="#E6007E"/>
+      <stop offset="1" stop-color="#FF3CAC"/>
+    </linearGradient>
+    <!-- Bottom row: pink -> orange (45deg) -->
+    <linearGradient id="cs-bot" gradientUnits="userSpaceOnUse"
+                    x1="137" y1="280" x2="419" y2="360">
+      <stop offset="0" stop-color="#FF6A88"/>
+      <stop offset="1" stop-color="#FF8A00"/>
     </linearGradient>
   </defs>
 
-  <!-- Three slanted parallelograms (sheared up-right):
-       1 on top (apex), 2 on bottom (base) — reads as a rising
-       upward arrow / diamond. One shared gradient flows across all. -->
-  <g fill="url(#cs-grad)">
-    <!-- Top (apex) -->
-    <polygon points="204,278 324,278 370,192 250,192"/>
-    <!-- Bottom-left -->
-    <polygon points="116,374 236,374 282,288 162,288"/>
-    <!-- Bottom-right -->
-    <polygon points="252,374 372,374 418,288 298,288"/>
-  </g>
+  <!-- TOP: one wide, large slanted parallelogram (~22deg up-right) -->
+  <polygon fill="url(#cs-top)" points="112,248 412,248 448,156 148,156"/>
+
+  <!-- BOTTOM: two smaller parallelograms with a thin central gap -->
+  <polygon fill="url(#cs-bot)" points="137,360 255,360 287,280 169,280"/>
+  <polygon fill="url(#cs-bot)" points="269,360 387,360 419,280 301,280"/>
 </svg>
