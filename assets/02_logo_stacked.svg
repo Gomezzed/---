@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Crouching Style logo, stacked lockup">
+  <title>Crouching Style — Stacked logo (vertical)</title>
+  <defs>
+    <linearGradient id="cs-top" gradientUnits="userSpaceOnUse" x1="178" y1="156" x2="386" y2="252">
+      <stop offset="0" stop-color="#E6007E"/>
+      <stop offset="1" stop-color="#FF3CAC"/>
+    </linearGradient>
+    <linearGradient id="cs-bot" gradientUnits="userSpaceOnUse" x1="82" y1="270" x2="368" y2="356">
+      <stop offset="0" stop-color="#FF6A88"/>
+      <stop offset="1" stop-color="#FF8A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- SYMBOL (locked master geometry, centered on top) -->
+  <g transform="translate(108.75,-77) scale(0.75)">
+    <polygon fill="url(#cs-top)" points="136,252 386,252 428,156 178,156"/>
+    <polygon fill="url(#cs-bot)" points="82,356 198,356 236,270 120,270"/>
+    <polygon fill="url(#cs-bot)" points="214,356 330,356 368,270 252,270"/>
+  </g>
+
+  <!-- WORDMARK (centered) -->
+  <text x="300" y="262" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="64" font-weight="600" fill="#1B1B2F" letter-spacing="-1">Crouching Style</text>
+
+  <!-- TAGLINE (magenta -> pink -> orange) -->
+  <text x="125" y="302" font-family="Arial, sans-serif" font-size="26" font-weight="700">
+    <tspan fill="#E6007E">Prepare.</tspan><tspan fill="#FF6A88"> Launch.</tspan><tspan fill="#FF8A00"> Accelerate.</tspan>
+  </text>
+</svg>
