@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 280" width="980" height="280" role="img" aria-label="Crouching Style logo, monochrome black">
+  <title>Crouching Style — Monochrome (black)</title>
+
+  <!-- SYMBOL (locked master geometry, single-color) -->
+  <g transform="translate(-21.5,-52) scale(0.75)" fill="#1B1B2F">
+    <polygon points="136,252 386,252 428,156 178,156"/>
+    <polygon points="82,356 198,356 236,270 120,270"/>
+    <polygon points="214,356 330,356 368,270 252,270"/>
+  </g>
+
+  <!-- WORDMARK -->
+  <text x="330" y="150" font-family="Arial, sans-serif" font-size="80" font-weight="600"
+        fill="#1B1B2F" letter-spacing="-1">Crouching Style</text>
+
+  <!-- TAGLINE -->
+  <text x="333" y="200" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B1B2F">
+    <tspan>Prepare.</tspan><tspan> Launch.</tspan><tspan> Accelerate.</tspan>
+  </text>
+</svg>
